@@ -1,0 +1,27 @@
+Source: pardus-kde-settings
+Section: kde
+Priority: optional
+Maintainer: <qewer33> <qewer@qewer.dev>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.1
+Homepage: https://github.com/pardusc/pardus-kde-settings
+
+Package: pardus-kde-settings
+Architecture: all
+Depends: dbus-x11,
+         sddm,
+         plasma-desktop,
+         plasma-workspace,
+         breeze,
+         systemsettings,
+         x11-common,
+         pardus-backgrounds,
+         desktop-base,
+         ${misc:Depends}
+Recommends: kdialog,
+            numlockx,
+            onboard,
+            sddm-theme-breeze,
+            kde-config-gtk-style
+Description: default KDE Plasma settings for the Pardus desktop
+ This package contains the default KDE Plasma settings used by Pardus.
