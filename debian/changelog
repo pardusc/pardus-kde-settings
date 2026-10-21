@@ -1,5 +1,12 @@
 pardus-kde-settings (0.1.0) unstable; urgency=medium
 
-  * Initial release.
+  [ Edip Hazuri ]
+  * Add GPLv3 License
+  * add gitignore
+  * Add github deb package build workflow
+  * fix branch name in workflow
 
- -- qewer33 <qewer@qewer.dev>  Wed, 06 May 2026 12:00:00 +0300
+  [ qewer33 ]
+  * Add Pardus dark global theme
+
+ -- Fatih Altun <fatih.altun@pardus.org.tr>  Wed, 21 Oct 2026 22:17:27 +0300
